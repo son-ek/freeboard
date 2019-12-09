@@ -21,16 +21,13 @@
 					</td>
 				</tr>
 				<tr>
-					<td>
-						<label for="ui_name">이름</label><input type="text" id="ui_name" name="ui_name" />
-					</td>
-				<tr>
 					<td>						
-						<button type="submit">작성</button>
+						<button type="submit">로그인</button>
 					</td>
 				</tr>			
 			</tbody>			
 		</table>
 	</form>
+	<a href="http://localhost:8080/emotion/user/joinView">회원가입</a>
 </body>
 </html>

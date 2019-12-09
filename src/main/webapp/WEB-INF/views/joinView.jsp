@@ -12,7 +12,7 @@
 			<h1> 회원가입</h1>
 		</header>
 		<section id="container">
-			<form role="form" method="post" action="/user/join">
+			<form role="form" method="post" action="/emotion/user/join">
 				<table>
 					<tbody>
 						<tr>
@@ -31,9 +31,14 @@
 							</td>
 						<tr>
 							<td>						
-								<button type="submit">작성</button>
+								<button type="submit">회원가입</button>
 							</td>
-						</tr>			
+						</tr>
+						<tr>
+							<td>
+								<input type=button value="뒤로가기" onClick="history.back();">
+							</td>
+						</tr>		
 					</tbody>			
 				</table>
 			</form>
